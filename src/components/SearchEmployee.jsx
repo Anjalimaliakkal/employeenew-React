@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
+import NavBar from './NavBar'
 const SearchEmployee = () => {
     const [data, setData] = useState(
         {
