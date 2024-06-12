@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-
+import NavBar from './NavBar'
 
 const ViewAll = () => {
     const [todos, changeTodos] = useState(
@@ -25,7 +25,7 @@ const ViewAll = () => {
     return (
 
         <div>
-            
+            <NavBar />
             <h1><center>VIEWALL EMPLOYEES</center></h1>
             <div className="container">
                 <div className="row">
